@@ -1,3 +1,4 @@
+import requests
 """import os,random,mechanize,json,time
 br = mechanize.Browser()
 br.set_handle_robots(False)
