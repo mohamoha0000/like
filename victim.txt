@@ -1,1 +1,2 @@
-username|||||||password
+a="moha"
+print(a)
